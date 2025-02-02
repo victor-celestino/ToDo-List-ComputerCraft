@@ -154,10 +154,10 @@ while true do
             end
             saveTODO()
         end
-
-        term.clear()
-        printButtons()
-        term.setCursorPos(1, 1)
-        displayPage(currentPage)
     end
+
+    term.clear()
+    printButtons()
+    term.setCursorPos(1, 1)
+    displayPage(currentPage)
 end
